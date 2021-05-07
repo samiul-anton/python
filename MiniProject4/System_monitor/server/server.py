@@ -31,12 +31,12 @@ def get_disk():
 
 def get_signal_strength():
 	net = psutil.net_io_counters()
-	signal = {'Bytes_send':net[0]//20000000,'Bytes_recv':net[1]//100000}
+	signal = {'Bytes_send':net[0],'Bytes_recv':net[1]}
 	return signal
 
 def get_network_traffic():
 	net = psutil.net_io_counters()
-	traffic = {'Packets_send':net[2]//20000000,'Packets_recv':net[3]//100000}
+	traffic = {'Packets_send':net[2],'Packets_recv':net[3]}
 	return traffic
 
 async def hello(websocket, path):
@@ -51,9 +51,8 @@ async def hello(websocket, path):
 						   "signal":get_signal_strength(),\
 						   "traffic":get_network_traffic()\
     					   })
-
     await websocket.send(send_obj)
-    print(send_obj)
+
 
 """start_server = websockets.serve(hello, "http://127.0.0.1:8000/")
 
