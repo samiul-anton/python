@@ -1,0 +1,81 @@
+==> 2021-04-23 22:35:57 <==
+# cmd: /home/anton/anaconda3/condabin/conda create -p /home/anton/anaconda3/envs/websockets -y python=3.9
+# conda version: 4.8.2
++defaults/linux-64::_libgcc_mutex-0.1-main
++defaults/linux-64::ca-certificates-2021.4.13-h06a4308_1
++defaults/linux-64::certifi-2020.12.5-py39h06a4308_0
++defaults/linux-64::ld_impl_linux-64-2.33.1-h53a641e_7
++defaults/linux-64::libffi-3.3-he6710b0_2
++defaults/linux-64::libgcc-ng-9.1.0-hdf63c60_0
++defaults/linux-64::libstdcxx-ng-9.1.0-hdf63c60_0
++defaults/linux-64::ncurses-6.2-he6710b0_1
++defaults/linux-64::openssl-1.1.1k-h27cfd23_0
++defaults/linux-64::pip-21.0.1-py39h06a4308_0
++defaults/linux-64::python-3.9.4-hdb3f193_0
++defaults/linux-64::readline-8.1-h27cfd23_0
++defaults/linux-64::setuptools-52.0.0-py39h06a4308_0
++defaults/linux-64::sqlite-3.35.4-hdfb4753_0
++defaults/linux-64::tk-8.6.10-hbc83047_0
++defaults/linux-64::xz-5.2.5-h7b6447c_0
++defaults/linux-64::zlib-1.2.11-h7b6447c_3
++defaults/noarch::tzdata-2020f-h52ac0ba_0
++defaults/noarch::wheel-0.36.2-pyhd3eb1b0_0
+# update specs: ['python=3.9']
+==> 2021-04-24 01:06:56 <==
+# cmd: /home/anton/anaconda3/bin/conda install -p /home/anton/anaconda3/envs/websockets selenium -y
+# conda version: 4.8.2
++defaults/linux-64::brotlipy-0.7.0-py39h27cfd23_1003
++defaults/linux-64::cffi-1.14.5-py39h261ae71_0
++defaults/linux-64::cryptography-3.4.7-py39hd23ed53_0
++defaults/linux-64::pysocks-1.7.1-py39h06a4308_0
++defaults/linux-64::selenium-3.141.0-py39h27cfd23_1000
++defaults/linux-64::six-1.15.0-py39h06a4308_0
++defaults/noarch::idna-3.1-pyhd3eb1b0_0
++defaults/noarch::pycparser-2.20-py_2
++defaults/noarch::pyopenssl-20.0.1-pyhd3eb1b0_1
++defaults/noarch::urllib3-1.26.4-pyhd3eb1b0_0
+# update specs: ['selenium']
+==> 2021-04-24 01:07:37 <==
+# cmd: /home/anton/anaconda3/bin/conda install -p /home/anton/anaconda3/envs/websockets requests -y
+# conda version: 4.8.2
+-defaults/noarch::idna-3.1-pyhd3eb1b0_0
++defaults/linux-64::chardet-4.0.0-py39h06a4308_1003
++defaults/noarch::idna-2.10-pyhd3eb1b0_0
++defaults/noarch::requests-2.25.1-pyhd3eb1b0_0
+# update specs: ['requests']
+==> 2021-04-30 12:20:39 <==
+# cmd: /home/anton/anaconda3/bin/conda install django
+# conda version: 4.10.1
++defaults/linux-64::krb5-1.17.1-h173b8e3_0
++defaults/linux-64::libedit-3.1.20210216-h27cfd23_1
++defaults/linux-64::libpq-12.2-h20c2e04_0
++defaults/linux-64::psycopg2-2.8.6-py39h3c74f83_1
++defaults/noarch::asgiref-3.3.4-pyhd3eb1b0_0
++defaults/noarch::django-3.2-pyhd3eb1b0_0
++defaults/noarch::pytz-2021.1-pyhd3eb1b0_0
++defaults/noarch::sqlparse-0.4.1-py_0
+# update specs: ['django']
+==> 2021-04-30 15:50:52 <==
+# cmd: /home/anton/anaconda3/bin/conda remove -p /home/anton/anaconda3/envs/websockets django -y
+# conda version: 4.10.1
+-defaults/linux-64::krb5-1.17.1-h173b8e3_0
+-defaults/linux-64::libedit-3.1.20210216-h27cfd23_1
+-defaults/linux-64::libpq-12.2-h20c2e04_0
+-defaults/linux-64::psycopg2-2.8.6-py39h3c74f83_1
+-defaults/noarch::asgiref-3.3.4-pyhd3eb1b0_0
+-defaults/noarch::django-3.2-pyhd3eb1b0_0
+-defaults/noarch::pytz-2021.1-pyhd3eb1b0_0
+-defaults/noarch::sqlparse-0.4.1-py_0
+# remove specs: ['django']
+==> 2021-05-01 09:45:03 <==
+# cmd: /home/anton/anaconda3/bin/conda install -p /home/anton/anaconda3/envs/websockets django -y
+# conda version: 4.10.1
++defaults/linux-64::krb5-1.17.1-h173b8e3_0
++defaults/linux-64::libedit-3.1.20210216-h27cfd23_1
++defaults/linux-64::libpq-12.2-h20c2e04_0
++defaults/linux-64::psycopg2-2.8.6-py39h3c74f83_1
++defaults/noarch::asgiref-3.3.4-pyhd3eb1b0_0
++defaults/noarch::django-3.2-pyhd3eb1b0_0
++defaults/noarch::pytz-2021.1-pyhd3eb1b0_0
++defaults/noarch::sqlparse-0.4.1-py_0
+# update specs: ['django']
